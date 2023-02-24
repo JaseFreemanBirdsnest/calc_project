@@ -1,5 +1,7 @@
 body {
     display: grid;
+    justify-content: center;
+    padding-top: 100px;
 }
 
 #content{
@@ -7,6 +9,7 @@ body {
     width: 400px;
     height: 600px;
     background-color: antiquewhite;
+    
 }
 
 .screen{
@@ -16,7 +19,7 @@ body {
     border: 2px;
     padding: 10px;
     background-color: gray;
-
+    margin: 20px;
 }
 
 #buttons{
@@ -27,5 +30,6 @@ body {
     align-items: center;
     grid-gap: 5px;
     background-color: azure;
+    margin: 20px;
 
 }
