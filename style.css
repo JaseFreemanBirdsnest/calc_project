@@ -1,35 +1,57 @@
 body {
-    display: grid;
-    justify-content: center;
-    padding-top: 100px;
+  display: grid;
+  justify-content: center;
+  padding-top: 100px;
 }
 
-#content{
-    display: grid;
-    width: 400px;
-    height: 600px;
-    background-color: antiquewhite;
-    
+#content {
+  display: grid;
+  width: 400px;
+  height: 600px;
+  background-color: antiquewhite;
 }
 
-.screen{
-    display: grid;
-    grid-template-rows: 30% auto;
-    border-color: black;
-    border: 2px;
-    padding: 10px;
-    background-color: gray;
-    margin: 20px;
+.screen {
+  display: grid;
+  grid-template-rows: 30% auto;
+  border-color: black;
+  border: 2px;
+  padding: 10px;
+  background-color: gray;
+  margin: 20px;
+  text-align: right;
 }
 
-#buttons{
-    display: grid;
-    grid-template-columns: 90px 90px 90px auto;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 5px;
-    background-color: azure;
-    margin: 20px;
+#smalltype {
+  font-size: 24px;
+}
 
+#largetype {
+  font-size: 48px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 90px 90px 90px auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 5px;
+  background-color: azure;
+  margin: 20px;
+}
+
+.clear {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+}
+
+.equals {
+  display: grid;
+  grid-column: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  height: 100%;
 }
